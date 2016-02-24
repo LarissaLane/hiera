@@ -2,6 +2,7 @@ source ENV['GEM_SOURCE'] || "https://rubygems.org"
 
 gem "hiera", :path => File.dirname(__FILE__), :require => false
 gem 'deep_merge', :require => false
+gem 'fast_gettext', '~> 1.0.0'
 
 group :development do
   gem 'watchr'
